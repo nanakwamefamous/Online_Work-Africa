@@ -1,0 +1,78 @@
+
+/* CardComponent.css */
+.cardh1{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+.card {
+  border: 1px solid #27418b;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+
+.card i{
+  color:gray;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  scale: 1.10;
+  color: white;
+  background-color:#27418b;
+  border: 1px solid #14b14b;
+}
+
+.card:active{
+  scale: 0.95;
+
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 1rem;
+}
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .card-title {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .card-content {
+    font-size: 8px;
+  }
+
+  .cardh1{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  }
+}

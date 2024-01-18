@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:#14b14b !important;
+}
+
+.textH2{
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  margin-top:50px;
+}
+
+
+.imgbg{
+  background-color: #27418b;
+}
+
+.crm{
+  background-color: #27418b;
+}
+
+@media screen and (max-width: 768px) {
+  .main_con{
+    width: 90%;
+  }
+  
+  .imgbg {
+    height: auto;
+  }
+  .imgbg img{
+    height: 60px;
+    width: 60px;
+  }
+
+  .card_con{
+    height: auto;
+    width: 30%;
+  }
+  
+  .name_text{
+    font-size: 10px
+  }
+
+  .card_text{
+    height: auto;
+    font-size: 10px;
+  }
+
+  .crm{
+    font-size: 8px;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    height: 10px;
+    width: 45px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,15 @@
+.SStextH2{
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .SStextH2{
+    font-size: large;
+  }
+  
+  .SSbox{
+    width: 75%;
+  }
+}

@@ -1,0 +1,124 @@
+.auptopimg{
+  width: 100%;
+  height: 270px;
+  background: url("../images/about us top.png");
+  background-size: cover;
+  background-position: center 40%;
+  margin-bottom: 2%;
+}
+
+.auph1text{
+  font-size: 50px;
+  position: absolute;
+  top: 190px;
+  left: 41%;
+  font-weight: lighter;
+  font-family: serif;
+  color:white;
+}
+
+.aupline{
+  width: 7%;
+  height: 3px;
+  background-color: #14b14b;
+  position: absolute;
+  top: 250px;
+  left: 46%;
+}
+
+.aupAboutBox{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid #27418b;
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 35px;
+  display: block;
+}
+
+.aupAboutBox h2{
+  padding-left: 4%;
+  font-weight: 700;
+}
+
+
+
+.sectBox-1 p{
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 5px;
+  text-align: justify;
+  font-family: 'Poppins' , sans-serif;
+}
+
+.boxa1{
+  display: flex;
+}
+
+.boxa2{
+  width: 50%;
+  height: auto;
+}
+
+.sectBox-2 p{
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 5px;
+  text-align: justify;
+  font-family: 'Poppins' , sans-serif;
+}
+.sectBox-3 p{
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 5px;
+  text-align: justify;
+  font-family: 'Poppins' , sans-serif;
+}
+.sectBox-4{
+  width: 50%;
+}
+.sectBox-4 p{
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 5px;
+  text-align: justify;
+  font-family: 'Poppins' , sans-serif;
+}
+
+
+/* Media queries for smaller screens */
+
+@media only screen and (max-width: 768px) {
+  .auptopimg {
+    width: 100%;
+    height: 150px;
+  }
+
+  .boxa1 {
+    display: block;
+  }
+  
+  .boxa2{
+    width: auto;
+  }
+
+  .sectBox-4{
+    width: auto;
+  }
+
+  .auph1text {
+    font-size: 25px;
+    top: 285px;
+    left: 37%;
+    transform: translateX(-50%);
+  }
+
+  .aupline {
+    width: 17%;
+    top: 320px;
+    left: 43%;
+  }
+}

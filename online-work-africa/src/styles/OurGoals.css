@@ -1,0 +1,106 @@
+
+.ogcontent-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #27418b;;
+  border-radius: 35px;
+}
+
+.ogtext-container {
+  flex: 1;
+  padding-left: 20px;
+ 
+}
+
+.ogtext-container h2{
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.ogtext-container p{
+  text-align:justify;
+  padding-left:20px
+}
+
+.ogimage-container {
+  flex: 1;
+  text-align: right;
+}
+
+.ogimage-container img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+
+}
+
+.ogbottom-right-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 180px;
+  background-color: #27418b;;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+  border-radius: 20px;
+}
+
+.ogbottom-right-btn:hover{
+  scale: 1.10;
+  color: #14b14b;
+}
+
+.ogbottom-right-btn:active{
+  scale: 0.95;
+}
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .ogcontent-container {
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .ogtext-container {
+    flex: 1;
+    padding-left: 0;
+    padding-bottom: 10px;
+    font-size:9px
+  }
+
+  .ogtext-container h2 {
+    font-size: large;
+  }
+
+  .ogtext-container p{
+  text-align:left;
+  padding-left:10px
+}
+
+  .ogimage-container {
+    flex: 1;
+    text-align: center;
+  }
+
+  .ogimage-container img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  .ogbottom-right-btn {
+    font-size: 8px;
+    right: 70%;
+    transform: translateX(50%);
+  }
+}

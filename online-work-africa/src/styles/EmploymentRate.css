@@ -1,0 +1,98 @@
+.EmploymentBox{
+  width:100%;
+  height: 50%;
+  background-color: #27418b;
+  margin-top: 50px;
+  
+}
+
+.contentandemployment {
+  color: white;
+}
+
+.EmploymentAndUnemploymentRateInAfrica{
+  text-align: center;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ContentBox{
+  display: flex;
+  justify-content: center;
+
+}
+
+.employmentcontent1{
+  margin-top: 5px;
+  text-align: center;
+  
+}
+
+.employmentcontent2{
+  margin-top: 5px;
+  text-align: center;
+
+}
+.EmploymentRate{
+  font-size: x-large;
+  font-style: italic;
+}
+
+.Line1{
+  width: 3px;
+  height: 70px;
+  background-color: #676767;
+  margin-bottom: 1%;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.UnemploymentRate{
+  font-size:x-large;
+  font-style: italic;
+}
+
+.Content{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.Content2{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .EmploymentAndUnemploymentRateInAfrica{
+    font-size:larger;
+    text-transform: uppercase;
+  }
+  
+  .EmploymentBox {
+    height: 50%;
+  }
+
+  .ContentBox {
+    flex-direction: column;
+    align-items: center;
+    font-size: smaller;
+  }
+
+  .Content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Content2 {
+    text-align: center;
+  }
+
+  .Line1 {
+    margin: 0 auto;
+    
+  }
+}
