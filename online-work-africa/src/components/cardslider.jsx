@@ -1,25 +1,25 @@
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/cardslider.css"
-import image0 from "../images/unknown-image.jpg"
+// import image0 from "../images/unknown-image.jpg"
 
 function Cardslider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear"
-  };
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 2000,
+  //   autoplaySpeed: 2000,
+  //   cssEase: "linear"
+  // };
   return (
     <div className='w-3/4 m-auto main_con'>
       <div className="mt-5">
       <h2 className="textH2">TRAINERS</h2>
-      <Slider {...settings}>
+      {/* <Slider {...settings}>
         {data.map((d) => (
           <div key={d.name} className="h-[450px] text-black rounded-xl card_con">
             <div className='h-56 flex justify-center items-center rounded-t-x1 imgbg'>
@@ -32,40 +32,40 @@ function Cardslider() {
             </div>
           </div>
         ))}
-      </Slider>
+      </Slider> */}
       </div>
-      
+      <h2 className="hpupcoming">UPCOMING</h2>
     </div>
   );
 }
 
-const data = [
-  {
-    name: `John Obeng`,
-    img: image0,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  },
-  {
-    name: `Anderson`,
-    img: image0,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  },
-  {
-    name: `Nia Adebayo`,
-    img: image0,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  },
-  {
-    name: `Rigo Louie`,
-    img: image0,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  },
-  {
-    name: `Mia Williams`,
-    img: image0,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  },
+// const data = [
+//   {
+//     name: `John Obeng`,
+//     img: image0,
+//     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+//   },
+//   {
+//     name: `Anderson`,
+//     img: image0,
+//     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+//   },
+//   {
+//     name: `Nia Adebayo`,
+//     img: image0,
+//     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+//   },
+//   {
+//     name: `Rigo Louie`,
+//     img: image0,
+//     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+//   },
+//   {
+//     name: `Mia Williams`,
+//     img: image0,
+//     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+//   },
   
-];
+// ];
 
 export default Cardslider;

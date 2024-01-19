@@ -26,6 +26,11 @@
   background-color: #27418b;
 }
 
+.hpupcoming{
+  text-align: center;
+  font-size: xx-large;
+}
+
 @media screen and (max-width: 768px) {
   .main_con{
     width: 90%;
@@ -37,6 +42,10 @@
   .imgbg img{
     height: 60px;
     width: 60px;
+  }
+
+  .textH2{
+    font-size: large;
   }
 
   .card_con{

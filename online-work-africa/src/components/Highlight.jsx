@@ -66,31 +66,31 @@ const Highlight = () => {
         <div className="card">
             <i class="fa-solid fa-chalkboard-user  fa-2xl"></i>
           <h2 className="card-title">Distinguished Speakers Lineup</h2>
-          <p className="card-content">
+          {/* <p className="card-content">
             Brace yourself for thought-provoking discussions led by industry luminaries, entrepreneurs, and experts. Our lineup of speakers brings diverse perspectives and deep insights into the world of online work.
-          </p>
+          </p> */}
         </div>
         <div className="card">
         <i class="fa-solid fa-globe fa-2xl"></i>
           <h2 className="card-title">Exploring Digital Horizons</h2>
-          <p className="card-content">
+          {/* <p className="card-content">
             Uncover a spectrum of themes at the forefront of the digital revolution. From remote collaboration to emerging online work trends, our conference delves into the latest insights shaping the future of work.
-          </p>
+          </p> */}
         </div>
         <div className="card">
         <i class="fa-solid fa-user-pen fa-2xl"></i>
           <h2 className="card-title">Inclusive Learning Paths</h2>
-          <p className="card-content">Engage in interactive sessions designed for all skill levels. Whether you're a seasoned professional or just starting, our conference offers learning paths tailored to your digital journey.</p>
+          {/* <p className="card-content">Engage in interactive sessions designed for all skill levels. Whether you're a seasoned professional or just starting, our conference offers learning paths tailored to your digital journey.</p> */}
         </div>
         <div className="card">
           <i class="fa-solid fa-wifi fa-2xl"></i>
           <h2 className="card-title">Networking Opportunities</h2>
-          <p className="card-content">Connect with a vibrant community of professionals, students, and entrepreneurs from across Africa. Our networking sessions provide the perfect platform to forge collaborations, share experiences, and expand your network.</p>
+          {/* <p className="card-content">Connect with a vibrant community of professionals, students, and entrepreneurs from across Africa. Our networking sessions provide the perfect platform to forge collaborations, share experiences, and expand your network.</p> */}
         </div>
         <div className="card">
         <i class="fa-solid fa-person-circle-question fa-2xl"></i>
           <h2 className="card-title">Dynamic Q&A Sessions</h2>
-          <p className="card-content"> Have burning questions? Our dynamic Q&A sessions allow you to interact directly with our speakers, gaining deeper insights and perspectives on the evolving landscape of online work.</p>
+          {/* <p className="card-content"> Have burning questions? Our dynamic Q&A sessions allow you to interact directly with our speakers, gaining deeper insights and perspectives on the evolving landscape of online work.</p> */}
         </div>
     </div>
     </>
