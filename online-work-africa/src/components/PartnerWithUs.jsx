@@ -17,7 +17,7 @@ export default function PartnerWithUs() {
       <div data-aos="zoom-in" className="pwutext-container">
         <h2>PARTNER WITH US</h2>
         <p>
-        We invite you to join us in making a meaningful impact on the lives of the youth by creating opportunities for the youth in Africa through our initiative – the Online Work Africa Summit, brought to you by Mobile Web Ghana.
+        We extend a warm invitation and encourage you to actively participate with us in making a profound and lasting impact on the lives of the youth. Together, let's collaboratively create and seize opportunities for the youth in Africa through our innovative initiative – the Online Work Africa Summit, proudly brought to you by Mobile Web Ghana. Your engagement and support are crucial in fostering positive change and empowerment for the youth in our communities.
         </p>
       </div>
 
